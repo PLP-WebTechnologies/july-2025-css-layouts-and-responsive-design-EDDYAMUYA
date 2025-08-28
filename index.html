@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design - Flexbox & Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="logo">FlexGrid</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Modern Responsive Web Design In PLP Academy Week 4</h1>
+        <p>Flexbox, Grid and Responsive Web Design In CSS.</p>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Grid Layout Section -->
+        <section class="grid-layout">
+            <main class="main-content">
+                <div class="card">
+                    <div class="card-header">CSS Grid Layout</div>
+                    <div class="card-body">
+                        <p>CSS Grid Layout offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</p>
+                        <p>This main content area is part of a 2fr 1fr grid layout, which becomes a single column on smaller screens.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">Flexbox Components</div>
+                    <div class="card-body">
+                        <p>Flexbox is designed for one-dimensional layouts (either rows or columns). It's perfect for components like navigation menus, card layouts, and more.</p>
+                        <p>The navigation bar and cards on this page are built using Flexbox.</p>
+                    </div>
+                </div>
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card">
+                    <div class="card-header">Sidebar</div>
+                    <div class="card-body">
+                        <p>This sidebar demonstrates how CSS Grid can create complex layouts with minimal code.</p>
+                        <p>On mobile devices, this sidebar will stack below the main content.</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Features Section using Grid -->
+        <section class="features">
+            <div class="feature">
+                <h3>Mobile First</h3>
+                <p>Designed with mobile devices in mind, then enhanced for larger screens.</p>
+            </div>
+            <div class="feature">
+                <h3>Fully Responsive</h3>
+                <p>Adapts beautifully to all screen sizes from mobile to desktop.</p>
+            </div>
+            <div class="feature">
+                <h3>Performance Optimized</h3>
+                <p>Clean, efficient code that loads quickly on all devices.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>I create responsive websites that work across all devices using modern CSS techniques.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: edmondamuya@gmail.com</p>
+                <p>Phone: 0748765638</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <p>Twitter | Facebook | Instagram</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
